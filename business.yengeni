@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=UTF-8">
+  <tiltle>Street Bites</title>
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+  <style>
+  body { 
+   font-family: Arial, sans-serif;
+   margin: 0;
+   backgroung: #111;
+   color: white;
+   }
+   header { 
+   background: #ff3c00;
+   padding: 20px;
+   text-align: center;
+   }
+   nav a { 
+   color: white;
+   margin: 0 15px;
+   text-decoration: none;
+   font-weight: bold;
+   }
+   .hero {
+   text-align: center;
+   padding: 50px 20px;
+   background: url('https://images.unsplash.com/photo-1550547660-d9450f859349') no-repeat center/cpver;
+   }
+   .hero h1 {
+   font-size: 40px;
+   color: white;
+   }
+   .menu {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 20px;
+   }
+   .card {
+   background: #222;
+   margin: 15px;
+   padding: 20px;
+   width: 250px;
+   border-radius: 10px;
+   text-align: center;
+   }
+   .card h3 {
+   color: #ff3c00;
+   }
+   .contact {
+   background: black;
+   padding: 30px;
+   text-align: center;
+   }
+   .btn {
+   background: #25D366;
+   color: white;
+   padding: 12px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   display: inline-block;
+   margin-top: 10-px;
+   }
+   </style>
+   </head>
+   <body>
+   <header>
+   <h1>Sreet Bite</h1>
+   <p>Burgers Dagwoods Wings Chips Drinks</p>
+   </header>
+   <nav>
+   <a href="#">Home</a>
+   <a href="#">Menu</a>
+   <a href="#">Contact</a>
+   </nav>
+   <section class="hero">
+   <h1>Fresh. Hot. Delicious.</h1>
+   <p>Your favourite fast food spot in eKasi</P>
+   </section>
+   <section class="menu">
+   <div class="card">
+   <h3>Burgers/Dagwoods</h3>
+   <p>Juicy and tasty burgers and dagwoods made fresh.</p>
+   </div>
+   <div class="card">
+   <h3>Chips</h3>
+   <p>Hot and crispy fries.</p>
+   </div>
+   <div class="card">
+   <h3>Wings</h3>
+   <p>Spicy, BBQ and crispy wings.</P>
+   </div>
+   <div class="card">
+   <h3>Drinks</h3>
+   <p>Mocktails and refreshing cocktails.</p>
+   </div>
+   </section>
+   <section class="contact">
+   <h2>Order Now</h2>
+   <p>Contact us on WhatsApp</p>
+   <a class="btn" href=https://wa.me/0812624641">Order on WhatsApp</a>
+   </section>
+   </body>
+   </html>
+   
+   
